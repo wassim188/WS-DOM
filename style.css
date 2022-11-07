@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box ;
+    list-style: none;
+    text-decoration: none;
+}
+:root {
+    --main-color: #fd4646 ;
+    --text-color: #171427 ;
+    --bg-color: #fff;
+}  
+img {
+    width: 100%;
+}  
+body {
+    color: var(--text-color);
+   
+}
+.container {
+    max-width: 1068px;
+    margin: auto;
+    width: 100%;
+    
+}
+section {
+    padding: 4rem 0 3rem;
+    background-color: goldenrod;
+    margin: 20px;
+}
+/* header */
+header {
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(182, 240, 107) ; 
+    box-shadow: 0 1px 4px hsl(0 4% 15% / 10%);
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo{
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 400;    
+}
+.logo:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .6s;
+}
+#cart-icon {
+    font-size: 2rem;
+    cursor: pointer;
+}
+.section-title {
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: rgb(255, 255, 255);
+}
+.title:hover {
+     
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .6s;
+}
+.shop {
+    margin-top: 2rem;
+}
+.col:hover{
+     border-radius: 10px solid grey;
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .6s;
+}
+.card-title {
+    text-align: center;
+    color: goldenrod;
+    font-size: 2rem;
+}
+#cart-icon {    
+    font-size: 2rem;
+    padding: 4px ;
+    background-color: #17d117;
+    border: 1.5px solid #171427;
+    border-radius: 100% ;
+}
+#cart-icon:hover {   
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .6s;    
+}
+.unit-price {
+   
+    font-size: 1.4rem;
+    color: #171427;
+}
+.btn-title {
+    padding: 5px;
+    margin: 2.5px;
+    border-top: 1.5px rgb(192, 192, 192) solid;
+}
+.btn-general {
+    padding: 5px;
+    margin: 2.5px;
+    border: 1.5px  rgb(192, 192, 192) solid;
+}
+.bxs-plus-circle {
+    font-size: 2rem ;
+
+}
+.bxs-plus-circle:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .6s;    
+}
+.bxs-minus-circle {
+    font-size: 2rem;
+}
+.bxs-minus-circle:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .6s; 
+}
+.qte {
+    font-size: 2rem;
+}
+.reaction {
+    font-size: 2rem;
+    padding: 5px ;
+    margin: 2.5px;
+    border-top: 1.5px rgb(192, 192, 192) solid;
+
+}
+.bxs-trash:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .6s;
+}
+.bxs-heart:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .6s;
+}
+.general-price-container {
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+    border: 1.5px grey solid;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.toggleHeart{
+    color: red;
+}

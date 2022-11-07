@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <!--nav-->
+        <div class="nav container">
+            <p href="#" class="logo"><b>Cars Shop</b> </p>
+            <!--cart-icon-->
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+        </div>
+        <!--title-->
+    </header>
+    <section class="shop container">
+        <div class="section-title"><p class="title">Shop Products</></div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <!--box1-->
+  <div class="col">
+    <div class="card h-100">
+      <img src="car10.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <div class="btn-title">
+        <h5 class="card-title">Bugati</h5>
+        <p class="card-text"></p>
+        <center><span class="unit-price">420000</span><span>$</span></center>
+        </div>
+        <center>
+          <div class="btn-general">
+          <i class='bx bxs-plus-circle'></i>
+          <span class="qte">0</span>
+          <i class='bx bxs-minus-circle'></i>
+        </div>
+        </center>
+        
+        
+        <center>
+          <div class="reaction">
+          <i class='bx bxs-trash'></i>
+          <i class='bx bxs-heart'></i>
+          </div>
+        </center>
+      </div>
+      <div class="car-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <!--box2-->
+  <div class="col">
+    <div class="card h-100">
+      <img src="car11.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <div class="btn-title">
+        <h5 class="card-title">Ferrari</h5>
+        <p class="card-text"></p>
+        <center><span class="unit-price">260000</span><span>$</span></center>
+        </div>
+        <center>
+          <div class="btn-general">
+          <i class='bx bxs-plus-circle'></i>
+          <span class="qte">0</span>
+          <i class='bx bxs-minus-circle'></i>
+        </div>
+        </center>
+        
+        
+        <center>
+          <div class="reaction">
+          <i class='bx bxs-trash'></i>
+          <i class='bx bxs-heart'></i>
+          </div>
+        </center>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <!--box3-->
+  <div class="col">
+    <div class="card h-100">
+      <img src="car12.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <div class="btn-title">
+        <h5 class="card-title">Maserati</h5>
+        <p class="card-text"></p>
+        <center><span class="unit-price">340000</span><span>$</span></center>
+        </div>
+        <center>
+          <div class="btn-general">
+          <i class='bx bxs-plus-circle'></i>
+          <span class="qte">0</span>
+          <i class='bx bxs-minus-circle'></i>
+        </div>
+        </center>
+        
+        <center>
+          <div class="reaction">
+          <i class='bx bxs-trash'></i>
+          <i class='bx bxs-heart'></i>
+          </div>
+        </center>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="general-price-container">
+  <span class="total-prices">Total Price</span>
+  <span class="total-price">0</span><span>$</span>
+</div>
+    </section>
+    <!--script--> 
+    <script src="script.js">
+
+    </script>   
+</body>
+</html>
